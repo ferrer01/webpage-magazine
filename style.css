@@ -1,0 +1,297 @@
+* {
+	 margin: 0;
+	 padding: 0;
+	 font-family:  'Verdana', sans-serif;
+	 box-sizing:  border-box;
+}
+
+.body {
+	 background: #F1DDBF;
+	 color: #FFFF;
+}     
+
+#header {
+	 width: 100%;
+	 height: 100vh;
+	 background-image: url(https://media.discordapp.net/attachments/1225126948661887167/1225467946650832978/navigation.png?ex=66213cf6&is=660ec7f6&hm=3714758f3561d633c5930b19a26cd531c74f77cc70a4e7248f3825624604ad1b&=&format=webp&quality=lossless&width=788&height=443);
+	 background-size: cover;
+	 background-position: center;
+	 
+}
+
+.container {
+	 padding: 1px 10%;
+	 
+}
+
+nav {
+	 display: flex;
+	 align-items: center;
+	 justify-content:  space-between;
+	 flex-wrap:  wrap;
+}
+
+nav  ul  li {
+	 display: inline-block;
+	 list-style:  none;
+	 margin:  10px  20px;
+}
+
+nav ul li a  {
+	 color: #E5ECE5;
+	 text-decoration:  none;
+	 font-size: 18px;
+	 position: relative;
+	 
+}
+
+nav ul  li a::after {
+	  content:  '';
+	  width:  0; 
+	  width: 100%;
+	  height: 3px;
+	  background: #525E75;
+	  position: absolute;
+	  left: 0;
+	  bottom: -6px;
+	  transition: 0.5s;
+}
+
+nav ul  li a:hover::after  {
+	 width: 1px;
+	 
+}
+
+.header-text {
+	 margin-top: -4%;
+	 margin-left: -75px;
+	 font-size:  30px;
+	 
+}
+
+.header-text h1 {
+	 font-size: 30px;
+	 margin-top: 1px;
+}
+
+.header-text h1  span  {
+	 color: #525E75;
+}
+
+#about {
+	 padding: 80px 0;
+	 color: #78938A;
+}
+
+
+.row {
+	 display: flex;
+	 justify-content: space-between;
+	 flex-wrap: wrap;
+	 
+}
+
+.about-col-1   {
+	 flex-basis: 65%;
+}
+
+
+
+.about-col-1 img  {
+	 width: 100%;
+	 border-radius: 15px;
+	 margin-left: -150px;
+}
+
+.about-col-2 h1 {
+	 margin-bottom: -50px;
+	 margin-right: 75px;
+	 margin-top: 625px;
+	 position: center;
+	 font-size: 30px;
+	 font-weight: 600;
+	 color: #78938A;
+}
+
+.about-col-2 h5 {
+	 margin-top: 50px;
+	 margin-left: -200px;
+     	 
+}
+
+.about-col-2 p {
+	 margin-top: 10px;
+	 margin-left: -200px;
+     	 
+}
+
+.about-col-2 h6 {
+	 margin-top: ;
+	 margin-left: ;
+	 font-size: 6px;
+     	 
+}
+
+.float  {
+	 float: left;
+	 margin-left:px;
+	 font-size: 10px; 
+	 
+}
+
+.float img {
+	 width: 100%;
+	 border-radius: 15px;
+	 margin-left: -150px;
+}
+
+.float1  {
+	 font-size: 11px; 
+	 float: left;
+	 margin-right: 50px;
+	 margin-top: 25px;
+}
+
+.float2 {
+	 font-size: 11px; 
+	 float: left;
+	 margin-right: -50px;
+	 margin-top: 25px;
+}
+
+#contents {
+	 padding: 30px 0;
+	 color: #525E75;
+	 
+}
+
+.content-list  {
+	 display: grid;
+	 grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
+	 grid-gap: 40px;
+	 margin-top: 50px;
+}
+
+.content-list div {
+	 background: #566642;
+	 padding:  40px;
+	 font-size:  13px;
+	 font-weight:  300;
+	 font-family: brush script mt;
+	 color: #FFFF;
+	 border-right: 10px;
+}
+
+
+body {
+	 background:  #F1DDBF;
+}
+
+
+
+.contact-me p{
+		 color:#FFFF;
+		 font-size: 30px;
+		 font-weight: bold;
+		 margin-bottom: 25px;
+		 
+	 }
+	 
+	 .contact-me .button-two {
+		 background-color: #90D26D;
+		 color: #2C7865;
+		 text-decoration: none;
+		 border: 2px solid transparent;
+		 font-weight: bold;
+		 padding: 13px 30px;
+		 border-radius: 30px;
+		 transition: .4s;
+		 
+	 }
+	 
+	 .contact-me a:hover {
+		 background: #D9EDBF;
+		 color: #FFFF;
+		 border-color: #FFFF;
+		 box-shadow: 0 0 10px #FFFF;
+	 } 
+
+	 
+	 .contacts {
+		 font-size: 20px;
+		 color: transparent;
+		 color: #FFFF;
+		 line-height: 1.2;
+		 -webkit-text-stroke: .5px #FFFF;
+		 
+	 }
+	 
+	 $blue: #2962ff;
+
+     
+
+     
+
+     section {
+	     display: flex;
+	     flex-direction: column;
+	     justify-content: center;
+	     align-items: center;
+	     min-height: 100vh;
+	     font-size: 2em;
+	     color: #fff;
+	     text-transform: uppercase;
+	     gap: 30px;
+		 
+}
+
+     .contacts h1 {
+	     font-size: 2.5em;
+	     text-decoration: underline;
+	 @media (max-width: 768px) {
+		 font-size: 1.3em;
+	}
+}
+
+     .text-shadow {
+	     font-style: italic;
+	     text-transform: uppercase;
+	     color: transparent;
+	     -webkit-text-stroke: #FFFF;
+	     -webkit-text-stroke-width: 1px;
+	     text-shadow: 2px 2px 10px $blue;
+	     transition: all 0.5s ease-in-out;
+	     text-align: center;
+	     letter-spacing: 0.2em;
+	     animation: flicker 0.5s ease-in-out infinite alternate;
+
+	     &:hover {
+		color: #fff;
+	 }
+     }
+
+     .tags small {
+	 @media (max-width: 768px) {
+		 font-size: 0.5em;
+	 }
+     }
+
+     @keyframes flicker {
+	     0% {
+		 opacity: 0.5;
+		 text-shadow: 2px 2px 10px $blue;
+	 }
+	 100% {
+		 opacity: 1;
+		 text-shadow: 2px 2px 20px $blue;
+	 }
+     }
+	 
+	 #contacts {
+		 width: 100%;
+	     height: 100vh;
+	     background-image: url(https://media.discordapp.net/attachments/1214596929363779588/1225547287007334421/1.png?ex=662186da&is=660f11da&hm=96fe6f34cb5c980c6c629392dc669eae7130abfeae02e1d4901542e201f9e10b&=&format=webp&quality=lossless&width=785&height=443);
+	     background-size: cover;
+	     background-position: center;
+		 
+	 }
